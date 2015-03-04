@@ -79,9 +79,10 @@ date. There should be four PNG files and four R code files.
 
 ##Plotting Process :
 <ol>
-<li>Use the sqldf function to get the selected dataset for the 1st and 2nd of Feb 2007. Create the 1st histogram plot, using the hist function from this dataset. </li>
+<li>Use the sqldf function to get the selected dataset for the 1st and 2nd of Feb 2007. Create the 1st histogram plot from this dataset, using the hist function. </li>
 <li>Concatenate the Date and Time variables using paste. Use the lubridate package to get a Date/Time class for the resulting variable. Plot the second plot, which is a scatter plot, setting the x and y labels and adjusting the size of the datapoints.</li>
-<li>For the 3rd plot, initialize scatter the plot using type="n", so that the plot is not actually drawn. Use the lines function to add in the plots for the 3 Sub_metering variables in different colors. Add a legend in the top right section of the plot</li>
+<li>For the 3rd plot, initialize the scatter plot using type="n", so that the plot is not actually drawn. Use the lines function to add in the plots for the 3 Sub_metering variables in different colors. Add a legend in the top right section of the plot</li>
 <li>For the 4th plot (containing 4 multiple scatter plots), use the mfrow par to have 2 columns and 2 rows. Adjust the margins so the labels are visible. Add the required plots sequentially.</li>
 <li>Save all the 4 plots generated above as a png file using dev.copy and png functions</li>
 </ol>
+
