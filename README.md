@@ -77,7 +77,7 @@ When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
-Plotting Process :
+##Plotting Process :
 <ol>
 <li>Use the sqldf function to get the selected dataset for the 1st and 2nd of Feb 2007. Create the 1st histogram plot, using the hist function from this dataset. </li>
 <li>Concatenate the Date and Time variables using paste. Use the lubridate package to get a Date/Time class for the resulting variable. Plot the second plot, which is a scatter plot, setting the x and y labels and adjusting the size of the datapoints.</li>
