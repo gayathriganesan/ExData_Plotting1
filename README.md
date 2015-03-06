@@ -34,7 +34,7 @@ web site</a>:
 </ol>
 
 ## Loading the data
-Download the zipped dataset from the above source; Unzip the zipped folder and make sure that the text file is at data/CourseProj1/household_power_consumption.txt under your working directory.
+Download the zipped dataset from the above source; Unzip the zipped folder and make sure that the text file is at <b><i>data/CourseProj1/household_power_consumption.txt</i></b> under your working directory.
 
 When loading the dataset into R, please consider the following:
 
