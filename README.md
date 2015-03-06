@@ -44,7 +44,7 @@ in memory before reading into R. Make sure your computer has enough
 memory (most modern computers should be fine).
 
 * We will only be using data from the dates 2007-02-01 and 2007-02-02 for all 4 plots. 
-So I only read the data from just those dates into the R dataset, using the sqldf package and
+So I only read the data from just those dates into the R dataset, using the <b>sqldf</b> package and
 just selecting for the Date columns having the values of '1/2/2007' and '2/2/2007' as strings.
 This is sufficient for the first plot.
 
